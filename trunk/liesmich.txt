@@ -1,0 +1,131 @@
+| Database Tuning
+|
+| Tuning für die WordPress-Datenbank
+|
+| WordPress-Plugin von Dietmar Rabich
+|
+| http://rabich.de/
+|
+| Stable tag: 0.6d
+|
+| $LastChangedDate: 2008-05-12 09:50:40 +0200 (Mon, 12 May 2008) $
+| $LastChangedRevision: 45345 $
+
+
+Das WordPress-Plugin ermöglich Wartungsarbeiten an den Tabellen und
+Indizes der WordPress-Datenbank.
+
+Zusätzlich können weitere Indizes zur Steigerung der Performance
+angelegt werden.
+
+Es ist sehr zu empfehlen, nicht nur regelmäßig, sondern insbesondere
+auch vor größeren Aktionen eine Datensicherung (Backup) durchzuführen.
+
+Die Nutzung des Plugins setzt die notwendigen Kenntnisse bezüglich der
+möglichen Datenbankaktionen voraus.
+
+Das Plugin ergänzt das Menü der Verwaltung im Administrationsbereich
+um einen Punkt.
+
+Es sei ausdrücklich darauf hingewiesen, dass das Plugin kein
+Ersatz-Administrationstool für eine MySQL-Datenbank ist.
+
+Informationen zu WordPress unter http://wordpress.org/ oder
+http://wordpress-deutschland.org/ .
+
+
+INSTALLATION
+
+Das Plugin (database-tuning.php) wird in das Plugins-Verzeichnis von
+WordPress kopiert. Danach kann es wie üblich aktiviert und genutzt
+werden.
+
+Bei einem Wechsel von einer früheren Version sollten zuerst die
+zusätzlichen und die alternativen Indizes entfernt werden. Nach dem
+Aktivieren der neuen Version können die Indizes wieder angelegt
+werden.
+
+Ebenso sollten die genannten Indizes vor einem WordPress-Update
+entfernt und danach wieder angelegt werden.
+
+(Der Grund für das Entfernen und Wiederanlegen ist eine eventuelle
+Änderung in der Indexstruktur. Ein Problem sollte allerdings nicht
+entstehen, wenn man vergessen sollte, die Indizes vor dem Update zu
+entfernen.)
+
+
+LOKALISIERUNG
+
+Die Texte des Plugins sind in deutsch geschrieben. Eine Lokalisierung
+ist jedoch möglich, da entsprechende Funktionen in dem Plugin
+genutzt wurden. Die für eine Übersetzung notwendigen Dateien sind
+dem Archiv beigefügt. Als Beispiel wurde eine Datei mit einer
+englischen Übersetzung (für den US-amerikanischen Sprachraum)
+beigefügt. Weitere Informationen zur Übersetzung sind unter
+http://wordpress.org/ zu finden.
+
+Soll das Plugin im englischen Sprachraum der USA ("en_US" als WPLANG
+in der Datei wp-config.php) eingesetzt werden, so muss zusätzlich die
+Datei database-tuning-en_US.mo in das Plugins-Verzeichnis kopiert
+werden. Soll mit anderen Einstellungen aus der Datei wp-config.php
+die englische Einstellung genutzt werden, so muss die Datei
+database-tuning-en_US.mo kopiert und in database-tuning-<<WPLANG>>.mo
+umbenannt werden, wobei WPLANG passend einzusetzen ist.
+
+
+KOMPATIBILITAET
+
+Database Tuning 0.6 wurde mit WordPress 2.1.3 getestet. Für die
+Nutzung ist eine MySQL-Datenbank mit mindestens der Version 4.1.2
+erforderlich.
+
+
+VERSIONSGESCHICHTE
+
+20.10.2006  0.1  Erste Veröffentlichung
+23.10.2006  0.2  Erweiterung um die Möglichkeit als 'spam'
+                 gekennzeichnte Kommentare zu löschen,
+                 ausführlichere Beschreibung
+29.10.2006  0.3  Weitere Prüffunktionen
+11.11.2006  0.4  Indizes an WordPress 2.0.5 angepasst,
+                 Reparaturmöglichkeit
+28.01.2007  0.5  Indizes an WordPress 2.1 angepasst
+13.04.2007  0.6  Lokalisierung, Scheduling
+
+
+CREDITS
+
+Dank an Jerome Lavigne für sein Plug "Jerome’s Query Diagnostics"
+(http://vapourtrails.ca/wp-plugins/).
+
+
+LIZENZ
+
+Copyright (c) 2007 Dietmar Rabich, Dülmen, Deutschland
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of the GNU General Public License (version 2) as
+published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+	
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+Dieses Programm ist freie Software. Sie können es unter den Bedingungen
+der GNU General Public License (Version 2), wie von der Free Software
+Foundation veröffentlicht, weitergeben und/oder modifizieren.
+
+Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, dass es
+Ihnen von Nutzen sein wird, aber OHNE IRGENDEINE GARANTIE, sogar ohne
+die implizite Garantie der MARKTREIFE oder der VERWENDBARKEIT FÜR EINEN
+BESTIMMTEN ZWECK. Details finden Sie in der GNU General Public License.
+
+Sie sollten ein Exemplar der GNU General Public License zusammen mit
+diesem Programm erhalten haben. Falls nicht, schreiben Sie an die Free
+Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston,
+MA 02110, USA.

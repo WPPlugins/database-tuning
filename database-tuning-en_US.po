@@ -1,0 +1,469 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Database Tuning\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-05-12 09:30+0100\n"
+"Last-Translator: Dietmar Rabich <http://rabich.de/>\n"
+"Language-Team: Dietmar Rabich <http://rabich.de/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: dbt__;dbt_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: database-tuning.php:306
+msgid "Indizes anlegen/Ergebnisse"
+msgstr "Create indexes/Results"
+
+#: database-tuning.php:338
+#, php-format
+msgid "Ein Index f&uuml;r die Spalte %s der Tabelle %s ist bereits vorhanden."
+msgstr "An index for column %s of table %s already exists."
+
+#: database-tuning.php:352
+#, php-format
+msgid "Der Index %s f&uuml;r Tabelle %s wurde angelegt."
+msgstr "The index %s for table %s was created."
+
+#: database-tuning.php:357
+#, php-format
+msgid "Der Index %s enth&auml;lt Spalten, die in der Tabelle %s nicht vorhanden sind."
+msgstr "The index %s contains columns which doesn't exist in table %s."
+
+#: database-tuning.php:363
+#, php-format
+msgid "Der Index %s f&uuml;r Tabelle %s ist bereits vorhanden."
+msgstr "An index %s for table %s already exists."
+
+#: database-tuning.php:378
+msgid "Indizes entfernen/Ergebnisse"
+msgstr "Drop indexes/Results"
+
+#: database-tuning.php:402
+#, php-format
+msgid "Der Index %s f&uuml;r Tabelle %s wurde entfernt."
+msgstr "The index %s for table %s was dropped."
+
+#: database-tuning.php:406
+#, php-format
+msgid "Der Index %s f&uuml;r Tabelle %s ist nicht vorhanden."
+msgstr "The index %s fpr table %s doesn't exists."
+
+#: database-tuning.php:430
+#, php-format
+msgid "Die Tabelle %s nutzt die Speicher-Engine %s und kann daher nicht bearbeitet werden."
+msgstr "The table %s uses the storage engine %s and so it can't be processed."
+
+#: database-tuning.php:445
+msgid "Tabellenname"
+msgstr "table name"
+
+#: database-tuning.php:446
+msgid "Speicher-Engine"
+msgstr "storage engine"
+
+#: database-tuning.php:447
+msgid "Anzahl Datens&auml;tze"
+msgstr "Number of data sets"
+
+#: database-tuning.php:448
+msgid "Durchschnittliche Datensatzl&auml;nge in Byte"
+msgstr "Average row size in bytes"
+
+#: database-tuning.php:449
+msgid "Zeitpunkt der Tabellenerstellung"
+msgstr "date of creating the table"
+
+#: database-tuning.php:450
+msgid "Zeitpunkt der letzten Aktualisierung"
+msgstr "date of last update"
+
+#: database-tuning.php:451
+msgid "Zeitpunkt der letzten Tabellenpr&uuml;fung"
+msgstr "date of last table check"
+
+#: database-tuning.php:452
+msgid "Kommentar zur Tabelle"
+msgstr "table comment"
+
+#: database-tuning.php:465
+msgid "Diese Tabelle(n) solltest du optimieren"
+msgstr "You should optimize these tables"
+
+#: database-tuning.php:472
+msgid "Tabellen pr&uuml;fen/Ergebnisse"
+msgstr "Check tables/Results"
+
+#: database-tuning.php:479
+msgid "Tabellen optimieren/Ergebnisse"
+msgstr "Optimize tables/Results"
+
+#: database-tuning.php:486
+msgid "Tabellen analysieren/Ergebnisse"
+msgstr "Analyze tables/Results"
+
+#: database-tuning.php:493
+msgid "Tabellen reparieren/Ergebnisse"
+msgstr "Repair tables/Results"
+
+#: database-tuning.php:500
+msgid "Tabellen mit Hilfe der Formatdatei reparieren/Ergebnisse"
+msgstr "Repair table via format file/Results"
+
+#: database-tuning.php:509
+msgid "Spam l&ouml;schen/Ergebnisse"
+msgstr "Delete spam/Results"
+
+#: database-tuning.php:515
+msgid "Keine Datens&auml;tze vorhanden"
+msgstr "There are no data sets."
+
+#: database-tuning.php:518
+msgid "Der gew&uuml;nschte Datensatz wurden gel&ouml;scht."
+msgstr "The wanted data set was deleted."
+
+#: database-tuning.php:519
+#, php-format
+msgid "Die gew&uuml;nschten %s Datens&auml;tze wurden gel&ouml;scht."
+msgstr "The wanted %s data sets were deleted."
+
+#: database-tuning.php:522
+msgid "Es wurden keine Datens&auml;tze gefunden."
+msgstr "There are no data sets found."
+
+#: database-tuning.php:537
+msgid "Indizes pr&uuml;fen/Ergebnisse"
+msgstr "Check indexes/Results"
+
+#: database-tuning.php:567
+#, php-format
+msgid "In der Tabelle %s ist die Spalte %s in folgenden Indizes als erste Spalte vorhanden: %s"
+msgstr "The table %s contains the column %s already in this indexes: %s"
+
+#: database-tuning.php:571
+msgid "Keine &uuml;berfl&uuml;ssigen Indizes erkannt."
+msgstr "No redundant indexes found."
+
+#: database-tuning.php:605
+msgid "Keine Tabellen optimiert."
+msgstr "No tables optimized."
+
+#: database-tuning.php:622
+#, php-format
+msgid "Folgende Tabelle(n) wurden optimiert: %s"
+msgstr "You should optimize these tables: %s"
+
+#: database-tuning.php:669
+#, php-format
+msgid "%s Datensatz/-s&auml;tze aktualisiert"
+msgstr "%s row/rows updated"
+
+#: database-tuning.php:670
+msgid "Keinen Datensatz aktualisiert"
+msgstr "No row updated"
+
+#: database-tuning.php:689
+#, php-format
+msgid "%s Datensatz/-s&auml;tze gel&ouml;scht"
+msgstr "%s row/rows deleted"
+
+#: database-tuning.php:690
+msgid "Keinen Datensatz gel&ouml;scht"
+msgstr "No row deleted"
+
+#: database-tuning.php:716
+msgid "Alte automatische Optimierung entfernt"
+msgstr "Old automatically optimization removed"
+
+#: database-tuning.php:725
+msgid "Neue automatische Optimierung eingetragen"
+msgstr "New automatically optimization added"
+
+#: database-tuning.php:736
+msgid "Alte automatisches Entfernen von IP-Adresse und User-Agent entfernt"
+msgstr "Old automatically deleting of id address and user agent removed"
+
+#: database-tuning.php:745
+msgid "Neue automatisches Entfernen von IP-Adresse und User-Agent eingetragen"
+msgstr "New automatically deleting of id address and user agent added"
+
+#: database-tuning.php:756
+msgid "Alte automatische L&ouml;schung von Spam-Kommentaren entfernt"
+msgstr "Old automatically deleting of spam removed"
+
+#: database-tuning.php:765
+msgid "Neue automatische L&ouml;schung von Spam-Kommentaren eingetragen"
+msgstr "New automatically deleting of spam added"
+
+#: database-tuning.php:815
+msgid "Optionen setzen"
+msgstr "Setting options"
+
+#: database-tuning.php:826
+msgid "Optionen gespeichert"
+msgstr "Options saved"
+
+#: database-tuning.php:866
+msgid "Nie"
+msgstr "Never"
+
+#: database-tuning.php:871
+msgid "Woche"
+msgstr "week"
+
+#: database-tuning.php:871
+msgid "Wochen"
+msgstr "weeks"
+
+#: database-tuning.php:874
+msgid "Tag"
+msgstr "day"
+
+#: database-tuning.php:874
+msgid "Tage"
+msgstr "days"
+
+#: database-tuning.php:903
+msgid "Mit <em>Database Tuning</em> k&ouml;nnen die Tabellen ein wenig optimiert werden, damit diverse Lesezugriffe performanter werden.<br />Die Analyse sollte regelm&auml;&szlig;ig erfolgen, die Optimierung sp&auml;testens nach gr&ouml;&szlig;eren Datenbestands&auml;nderungen.<br />Die Indizes helfen, Daten schneller zu lesen und sollten daher auch den Aufbau der Seiten positiv beeinflussen.<br />Anmerkung: Es kann durchaus sein, dass nach einem WordPress-Update die zus&auml;tzlichen Indizes einmal entfernt und wieder neu angelegt werden m&uuml;ssen, da das WordPress-Update selbst neue Indizes anlegt. Das Plugin achtet darauf, dass keine &uuml;berfl&uuml;ssigen zus&auml;tzlichen Indizes angelegt werden."
+msgstr "With <em>Database Tuning</em> your can optimize your tables a little so that read access will be done in a more sufficient way.<br />The analyze should be done periodically, the optimization should be done at the latest if a lot of data is updated or deleted.<br />The indexes will help to read data faster and should influence the build of the pages positive.<br />Annotation: If a WordPress update is done it may be the the additionally indexes must be deleted and created since the WordPress update creates indexes itself. The plugin looks out for not creating redundant indexes itself."
+
+#: database-tuning.php:904
+msgid "Als kleiner Tipp f&uuml;r die Vorgehensweise: Die zus&auml;tzlichen und die alternativen Indizes verbessern die Leseperformance und empfehlen sich daher. Wartungsarbeiten wie die Optimierung der Tabellen empfehlen sich sp&auml;testens nach gr&ouml;&szlig;eren Daten&auml;nderungen oder dem L&ouml;schen von Datens&auml;tzen. Die Analyse sollte regelm&auml;&szlig;ig durchgef&uuml;hrt werden."
+msgstr "A little help for your procedure: The additionally and the alternative indexes improve the reading performance and therefor they are recommended. Maintenance like optimizing tables is recommended if a lot of data is updated or deleted. You should analyze your tables periodically."
+
+#: database-tuning.php:905
+msgid "Sehr wichtiger Hinweis: Regelm&auml;&szlig;ig und erst recht vor Aktionen &ndash;&nbsp;insbesondere der Optimierung&nbsp;&ndash; immer ein Backup (Datensicherung) machen!<br />Es ist keine Funktionalit&auml;t f&uuml;r Backup oder Restore enthalten!"
+msgstr "Very important hint: Make periodically and especially before actions like optimizing a backup of your database!<br />There is no functionality contained for backup and restore!"
+
+#: database-tuning.php:913
+#: database-tuning.php:1069
+msgid "Tabellenstatus anzeigen"
+msgstr "Show table state"
+
+#: database-tuning.php:916
+msgid "Pr&uuml;fung der Tabellen"
+msgstr "Check tables"
+
+#: database-tuning.php:919
+msgid "Optimierung der Tabellen"
+msgstr "Optimize tables"
+
+#: database-tuning.php:922
+msgid "Reparatur der Tabellen"
+msgstr "Repair tables"
+
+#: database-tuning.php:925
+msgid "Erweiterte Reparatur der Tabellen"
+msgstr "Extended repair of the tables"
+
+#: database-tuning.php:928
+msgid "Analyse der Tabellen"
+msgstr "Analyze tables"
+
+#: database-tuning.php:931
+msgid "Austausch der WordPress-Indizes gegen alternative Indizes"
+msgstr "Change WordPress indexes to alternative indexes"
+
+#: database-tuning.php:934
+msgid "Anlegen der WordPress-Indizes"
+msgstr "Create WordPress indexes"
+
+#: database-tuning.php:937
+msgid "Anlegen der zus&auml;tzlichen Indizes"
+msgstr "Create additionally indexes"
+
+#: database-tuning.php:940
+msgid "Entfernen der zus&auml;tzlichen Indizes"
+msgstr "Drop addtionally indexes"
+
+#: database-tuning.php:943
+#: database-tuning.php:1109
+#: database-tuning.php:1164
+msgid "Spam l&ouml;schen"
+msgstr "Delete spam"
+
+#: database-tuning.php:946
+msgid "Erkennen &uuml;berfl&uuml;ssiger Indizes"
+msgstr "Find redundant indexes"
+
+#: database-tuning.php:949
+msgid "Optionen aktualisieren"
+msgstr "Update options"
+
+#: database-tuning.php:1021
+msgid "fertig."
+msgstr "ready."
+
+#: database-tuning.php:1028
+msgid "Erst einmal&nbsp;&hellip;"
+msgstr "As a start&nbsp;&hellip;"
+
+#: database-tuning.php:1033
+msgid "Keine Aktion"
+msgstr "No action"
+
+#: database-tuning.php:1039
+msgid "Tabellen- und Indexwartung"
+msgstr "Table and index maintenance"
+
+#: database-tuning.php:1043
+msgid "Auswahl"
+msgstr "Selection"
+
+#: database-tuning.php:1048
+msgid "WordPress-Tabellen"
+msgstr "WordPress tables"
+
+#: database-tuning.php:1060
+msgid "Andere Tabellen"
+msgstr "Other tables"
+
+#: database-tuning.php:1069
+msgid "Status der Tabellen anzeigen"
+msgstr "Show table state"
+
+#: database-tuning.php:1073
+msgid "Tabellen pr&uuml;fen"
+msgstr "Check tables"
+
+#: database-tuning.php:1073
+msgid "Tabellen auf Fehler pr&uuml;fen und Schl&uuml;sselstatistiken aktualisieren"
+msgstr "Check tables for errors and update key statistics"
+
+#: database-tuning.php:1074
+#: database-tuning.php:1134
+msgid "Tabellen optimieren"
+msgstr "Optimize tables"
+
+#: database-tuning.php:1074
+msgid "Nicht verwendeten Speicher in der Tabelle freigeben, Datendatei defragmentieren, Schl&uuml;sselanalyse durchf&uuml;hren und Indexbaum sortieren (Optimierung)"
+msgstr "Frees unused space of the tables, defragments data file, update key statistics and sorts index tree (optimization)"
+
+#: database-tuning.php:1075
+msgid "Tabellen analysieren"
+msgstr "Analyze tables"
+
+#: database-tuning.php:1075
+msgid "Schl&uuml;sselverteilung der Tabellen analysieren und speichern (Analyse)"
+msgstr "Analyze tables for key statistics and store it (analyze)"
+
+#: database-tuning.php:1076
+msgid "Tabellen reparieren"
+msgstr "Repair tables"
+
+#: database-tuning.php:1076
+msgid "Repariert unter Umst&auml;nden Tabellen"
+msgstr "Repairs tables if possible"
+
+#: database-tuning.php:1076
+msgid "Nur f&uuml;r wirklich defekte Tabellen ausgef&uuml;hren!"
+msgstr "Do this for really corrupted tables only!"
+
+#: database-tuning.php:1077
+msgid "Tabellen mit Hilfe der Formatdatei reparieren"
+msgstr "Repair tables with help of the format file"
+
+#: database-tuning.php:1077
+msgid "Repariert unter Umst&auml;nden Tabellen unter Ausnutzung der Formatdatei"
+msgstr "Repairs tables with help of the format file if possible"
+
+#: database-tuning.php:1077
+msgid "Nur ausf&uuml;hren, wenn die normale Reparatur fehlgeschlagen ist!"
+msgstr "Do this only if normal repair doesn't work!"
+
+#: database-tuning.php:1083
+msgid "WordPress-Indizes"
+msgstr "WordPress indexes"
+
+#: database-tuning.php:1087
+msgid "Alternative WordPress-Indizes anlegen"
+msgstr "Create alternative WordPress indexes"
+
+#: database-tuning.php:1087
+msgid "Legt alternative WordPress-Indizes (mit zus&auml;tzlichen Spalten) an"
+msgstr "Creates alternative WordPress indexes (with additionally columns)"
+
+#: database-tuning.php:1088
+msgid "WordPress-Indizes anlegen"
+msgstr "Create WordPress indexes"
+
+#: database-tuning.php:1088
+#, php-format
+msgid "Legt die urspr&uuml;nglichen WordPress-Indizes (Stand: %s) an, entfernt die Alternativen"
+msgstr "Creates the originally WordPress indexes (version %s) and removes the alternetives"
+
+#: database-tuning.php:1094
+msgid "Zus&auml;tzliche Indizes"
+msgstr "Addtionally indexes"
+
+#: database-tuning.php:1098
+msgid "Zus&auml;tzliche Indizes anlegen"
+msgstr "Create additionally indexes"
+
+#: database-tuning.php:1098
+msgid "Mehrere Indizes f&uuml;r schnelleren Lesezugriff anlegen"
+msgstr "Create several indexes for better reading performance"
+
+#: database-tuning.php:1099
+msgid "Zus&auml;tzliche Indizes entfernen"
+msgstr "Removes additionally indexes"
+
+#: database-tuning.php:1099
+msgid "Zus&auml;tzliche Indizes wieder entfernen"
+msgstr "Removes additionally indexes"
+
+#: database-tuning.php:1105
+msgid "Datenbereinigung"
+msgstr "Clearing up data"
+
+#: database-tuning.php:1109
+msgid "Als &bdquo;Spam&ldquo; gekennzeichnete Kommentare l&ouml;schen"
+msgstr "Delete all comments marked as \"spam\""
+
+#: database-tuning.php:1110
+msgid "&Uuml;berfl&uuml;ssige Indizes erkennen"
+msgstr "Recognizes redundant indexes"
+
+#: database-tuning.php:1110
+msgid "Erkennt Indizes mit gleicher Spaltenliste"
+msgstr "Recognizes indexes with same column list"
+
+#: database-tuning.php:1115
+msgid "Aktion ausf&uuml;hren"
+msgstr "Do action"
+
+#: database-tuning.php:1127
+msgid "Regelm&auml;&szlig;ige Aktionen"
+msgstr "Periodically actions"
+
+#: database-tuning.php:1150
+msgid "Ausf&uuml;hrungsintervall"
+msgstr "Execution interval"
+
+#: database-tuning.php:1158
+#: database-tuning.php:1188
+#: database-tuning.php:1218
+msgid "Letztes Ergebnis:"
+msgstr "Last result:"
+
+#: database-tuning.php:1180
+#: database-tuning.php:1210
+msgid "Abh&auml;ngig vom Eintragsdatum des Kommentars"
+msgstr "Dependent of creation date of the comment"
+
+#: database-tuning.php:1194
+msgid "IP-Adresse und User-Agent entfernen"
+msgstr "Removes ip address and user agent"
+
+#: database-tuning.php:1227
+msgid "Die regelm&auml;&szlig;igen Aktionen werden erst dann aktiviert, wenn mindestens einmal die Optionen gespeichert wurden."
+msgstr "The periodically actions will be activated if the options saved the first time."
+
+#: database-tuning.php:1229
+msgid "Aktualisiere Optionen"
+msgstr "Update options"
+
